@@ -1,1 +1,1 @@
-# T-C-Checker
+# Terms Checker
