@@ -65,7 +65,7 @@ async function tryPromptApi(termsText) {
 
         Your role is to identify potentially harmful or unusual terms and explain their real-world implications in simple language.
 
-        Create a JSON response with exactly this structure:
+        Create a JSON response with exactly this structure: any structure apart from this would be rejected by the system.
         {
             "riskyClauses": [
                 {
@@ -85,8 +85,7 @@ async function tryPromptApi(termsText) {
         - For each risky clause:
           * Skip the legal language completely
           * State only the practical impact
-          * Use direct, consequence-focused language
-          * Explain why users should care
+          * don't include any explanation, focus more on clear cut implications.
         - Keep language simple and conversational
         - Ensure the output is valid JSON`);
 

@@ -9,7 +9,7 @@
         "scripting",
         "aiLanguageModelOriginTrial"
     ],
-    "trial_tokens":["Aua9OEyqgeQ1z9Siq4bgGjGVsa2gk6Z1o8+tlmP/gedn9uLsTT4okvizBDuijrPqzSqdvuyOpxh0GOe+Cu0BGwIAAAB4eyJvcmlnaW4iOiJjaHJvbWUtZXh0ZW5zaW9uOi8vbGRvbG1wZGJwZGxraGxuaGxsaWZlZ2tnZ2pmZ25uZWsiLCJmZWF0dXJlIjoiQUlQcm9tcHRBUElGb3JFeHRlbnNpb24iLCJleHBpcnkiOjE3NjA0ODYzOTl9"],
+    "trial_tokens":["your origin trial token"],
     "host_permissions": [
         "https://generativelanguage.googleapis.com/*"
     ],
