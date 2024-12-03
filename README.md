@@ -21,8 +21,7 @@ In the `config.js` file, replace the `"your gemini api key"` with your actual **
 
 ```js
 const config = {
-    API_KEY: "YOUR_API_KEY_HERE",
-    API_URL: "https://api.sambanova.ai/v1/chat/completions"
+    API_KEY: "your gemini api key",
 };
 
 export default config;
@@ -51,4 +50,7 @@ export default config;
 4. Click the "Analyze" button.
 5. Review any sneaky or serious terms identified in the Terms and Conditions.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
 
